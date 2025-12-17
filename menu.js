@@ -32,3 +32,22 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+// Fake contact form submission
+const contactForm = document.getElementById('contactForm');
+const popup = document.getElementById('popup');
+const closePopup = document.getElementById('closePopup');
+
+if (contactForm) {
+  contactForm.addEventListener('submit', function (e) {
+    e.preventDefault(); // stop real submission
+    popup.style.display = 'flex';
+    contactForm.reset();
+  });
+}
+
+if (closePopup) {
+  closePopup.addEventListener('click', () => {
+    popup.style.display = 'none';
+  });
+}
+

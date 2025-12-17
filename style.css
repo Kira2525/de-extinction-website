@@ -710,3 +710,103 @@ footer p {
 .hamburger {
   display: none;
 }
+
+.contact-section {
+  margin-top: 4rem;
+  padding: 2rem;
+  background: #f4f6f8;
+  border-radius: 8px;
+}
+
+.contact-section h2 {
+  margin-bottom: 0.5rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  margin-top: 1rem;
+  padding: 0.7rem;
+  background-color: #2b4c7e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #1f375c;
+}
+
+.form-note {
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  color: #666;
+}
+
+.social-links {
+  margin-top: 2rem;
+}
+
+.social-links a {
+  margin-right: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #2b4c7e;
+}
+
+/* Popup Overlay */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Popup Box */
+.popup-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 300px;
+  width: 90%;
+}
+
+.popup-content h3 {
+  margin-top: 0;
+}
+
+.popup-content button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  background-color: #2b4c7e;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popup-content button:hover {
+  background-color: #1f375c;
+}
+

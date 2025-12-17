@@ -707,49 +707,6 @@ footer p {
     text-decoration: underline;
 }
 
-@media (max-width: 768px) {
-    .two-column, .stats-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    nav ul {
-        flex-direction: column;
-    }
-    
-    .header-content {
-        flex-direction: column;
-        text-align: center;
-        gap: 1rem;
-    }
-    
-    .logo {
-        width: 100px;
-        height: 100px;
-    }
-    
-    h1 {
-        font-size: 2rem;
-    }
-    
-    h2 {
-        font-size: 2rem;
-    }
-    
-    .content-section {
-        padding: 2rem;
-    }
-    
-    .bar-label {
-        min-width: 150px;
-        font-size: 0.9rem;
-    }
-    
-    .comparison-bars {
-        height: 300px;
-        padding: 1rem;
-    }
-    
-    .video-container iframe {
-        height: 300px;
-    }
+.hamburger {
+  display: none;
 }
